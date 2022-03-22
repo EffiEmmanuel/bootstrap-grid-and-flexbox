@@ -1,0 +1,12 @@
+.image-black-overlap{
+    position: relative;
+}
+.image-black-overlap::after{
+    content: "";
+    width: 200px;
+    height: 90px;
+    background-color: black;
+    position: absolute;
+    bottom: 20px;
+    right: -20px;
+}
