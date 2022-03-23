@@ -1,12 +1,22 @@
-.image-black-overlap{
-    position: relative;
+.white-line {
+    height: 1px;
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
 }
-.image-black-overlap::after{
-    content: "";
+
+.black-overlay-container {
+    position: relative;
+    z-index: 0;
+}
+
+.black-overlay {
     width: 200px;
-    height: 90px;
+    height: 120px;
+    border-radius: 20px;
     background-color: black;
     position: absolute;
-    bottom: 20px;
-    right: -20px;
+    bottom: 30px;
+    right: -100px;
+    z-index: 1;
 }
